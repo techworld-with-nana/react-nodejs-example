@@ -3,22 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0",
-    "react-scripts": "5.0.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "bootstrap": "^5.3.0",
-    "react-bootstrap": "^2.8.0",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^14.0.0",
-    "@testing-library/user-event": "^14.4.3"
+    "react-bootstrap": "^2.10.10",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.0",
+    "vite": "^6.3.0",
+    "vitest": "^2.0.0",
+    "jsdom": "^25.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
   },
-  "proxy": "http://localhost:3080",
   "eslintConfig": {
     "extends": "react-app"
   },
